@@ -1,0 +1,32 @@
+{% include './theme/Pinghsu_Lite/header.html.j2' %}
+    <div class="post-header-thumb  bg-deepgrey">
+        <div class="post-header-thumb-op"
+            style="background-image:url();"></div>
+        <div class="post-header-thumb-cover">
+            <div class="post-header-thumb-container">
+                <div class="post-header-thumb-title">
+                    {{ title }}
+                </div>
+                <div class="post-header-thumb-meta">
+                    {{ date }}
+                </div>
+                <div class="post-tags">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <article class="main-content post-page" itemscope itemtype="http://schema.org/Article">
+        <div class="post-header">
+            <h1 class="post-title" itemprop="name headline">
+                {{ title }} 
+            </h1>
+            <div class="post-data">
+                    {{ date }}
+            </div>
+        </div>
+        <div id="post-content" class="post-content" itemprop="articleBody">
+            {{ content }}
+        </div>
+    </article>
+{% include './theme/Pinghsu_Lite/footer.html.j2' %}

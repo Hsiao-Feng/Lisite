@@ -1,0 +1,84 @@
+<div class="footer-social"></div>
+<footer id="footer" class="footer ">
+    <div class="footer-meta">
+        <div class="footer-container">
+            <div class="meta-item meta-copyright">
+                <div class="meta-copyright-info">
+                    <a href="{{ url }}" class="info-logo">
+                        {{ name }} </a>
+                    <div class="info-text">
+                        <p style="color:slategray; font-size: .93em; margin: 1em 0;">{{ bio }}</p>
+                        <p>由&nbsp;<a href="#" target="_blank">Lisite</a> 生成，主题 Pinghsu Lite</p>
+                        <p>主题修改自&nbsp;<a href="https://github.com/chakhsu/pinghsu" target="_blank">Pinghsu</a></p>
+                        <p>原主题由&nbsp;<a href="https://www.linpx.com/" target="_blank">Chakhsu</a>&nbsp;设计</p>
+                        <p>© 2022 {{name}} &nbsp;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="meta-item meta-posts">
+                <h3 class="meta-title">A SENTENCE</h3>
+                <div style="color: #5f5f5f;font-size: 14px;">
+                    <p>Innovation distinguishes between a leader and a follower.</p>
+                    <i>— Steve Jobs</i>
+                </div>
+
+            </div>
+            <div class="meta-item meta-comments">
+                <h3 class="meta-title">LINKS</h3>
+                <li><a href="https://cn.bing.com" target="_blank">Microsoft Bing</a></li>
+                <li><a href="https://apple.cn" target="_blank">Apple</a></li>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="//cdn.bootcss.com/headroom/0.9.1/headroom.min.js"></script>
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.1.0/build/highlight.min.js"></script>
+<script>
+    var postSharer = new Headroom(document.getElementById("post-bottom-bar"), {
+        tolerance: 0,
+        offset: 70,
+        classes: {
+            initial: "animated",
+            pinned: "pinned",
+            unpinned: "unpinned"
+        }
+    });
+    postSharer.init();
+    var header = new Headroom(document.getElementById("header"), {
+        tolerance: 0,
+        offset: 70,
+        classes: {
+            initial: "animated",
+            pinned: "slideDown",
+            unpinned: "slideUp"
+        }
+    });
+    header.init();
+    hljs.initHighlightingOnLoad();
+</script>
+<script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+    showProcessingMessages: false,
+    messageStyle: "none",
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code','a'],
+        ignoreClass:"comment-content"
+    },
+    "HTML-CSS": {
+        availableFonts: ["STIX","TeX"],
+        showMathMenu: false,
+        scale: 200
+    }
+});
+MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+</script>
+<script src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+
+</html>

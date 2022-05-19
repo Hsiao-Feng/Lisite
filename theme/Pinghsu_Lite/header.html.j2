@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="//cdn.bootcdn.net" />
+    <link rel="dns-prefetch" href="//sdn.geekzu.org" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <title>{% if title %}{{ title }} - {% endif %}{{ name }}</title>
+    <!-- <meta name="keywords" content="" />
+    <meta name="description"
+        content="" />
+     -->
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.1.0/build/styles/xcode.min.css">
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--<link href="{{ url }}/static/style.min.css" rel="stylesheet">-->
+    <link href="style.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcdn.net/ajax/libs/html5shiv/r29/html5.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+        #view-tips {
+            border: 3px solid #71ABC9;
+            background-color: #ADD5EA;
+            padding: .5em;
+            color: #375564;
+        }
+    </style>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500&display=swap" rel="stylesheet" />
+
+</head>
+
+
+<body class="" gtools_scp_screen_capture_injected="true">
+    <!--[if lt IE 8]>
+    <div class="browsehappy" role="dialog">
+        当前网页 <strong>不支持</strong> 你正在使用的浏览器. 为了正常的访问, 请 <a href="http://browsehappy.com/" target="_blank">升级你的浏览器</a>。
+    </div>
+    <![endif]-->
+    <header id="header" class="header bg-white">
+        <div class="navbar-container">
+            <a href="{{ url }}" class="navbar-logo">
+                {{ name }}
+            </a>
+            <div class="navbar-menu">
+                <!-- <a href="about.html">关于</a> -->
+            </div>
+            <!-- <div class="navbar-search" onclick="">
+                <span class="icon-search"></span>
+                <form id="search" method="post" action="" role="search">
+                    <span class="search-box">
+                        <input type="text" id="input" class="input" name="s" required="true" placeholder="Search..."
+                            maxlength="30" autocomplete="off">
+                    </span>
+                </form>
+            </div> -->
+            <!-- <div class="navbar-mobile-menu" onclick="">
+                <span class="icon-menu cross"><span class="middle"></span></span>
+                <ul>
+                    <li><a href="about.html">关于</a></li>
+
+                </ul>
+            </div> -->
+        </div>
+    </header>

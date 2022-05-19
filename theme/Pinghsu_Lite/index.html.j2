@@ -1,0 +1,30 @@
+{% include './theme/Pinghsu_Lite/header.html.j2' %}
+    <div class="main-content index-page clearfix onelist-page">
+        <div class="post-lists">
+            <div class="post-lists-body">
+                <div class="post-onelist-item">
+                    <div class="post-onelist-item-container">
+                    {% for post in titleList %}
+                        <div class="onelist-item-info">
+                            <div class="item-title">
+                                <a href="{{ post.link }}.html">{{ post.title }}</a>
+                            </div>
+                            <div class="item-meta">
+                                <!-- <time datetime="2022-05-19T14:53:00+00:00" itemprop="datePublished"> {{ post.date }}</time> -->
+                                <p>{{ post.date }}</p>
+                            </div>
+                            <!-- <div class="item-content">
+                                <p>{{ post.description }}</p>
+                            </div> -->
+                            
+                            <!-- <div class="item-meta-hr  bg-deepgrey"></div> -->
+                        </div>
+                    {% endfor %}
+                    </div>
+                </div>
+			</div>
+		</div>
+	</div>
+
+
+{% include './theme/Pinghsu_Lite/footer.html.j2' %}
