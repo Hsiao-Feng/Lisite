@@ -9,6 +9,9 @@ startTime = time.time()
 
 prefix = config.enable_https and "https://" or "http://"
 
+if not os.path.exists("public"):
+    os.mkdir("public")
+
 env = Environment(loader=FileSystemLoader('./'))
 template = env.get_template(f'./theme/{config.theme}/content.html.j2')
 titleList = []

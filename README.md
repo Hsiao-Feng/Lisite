@@ -11,7 +11,7 @@
 
 ## 使用
 
-将配置信息填入`config.py`，运行`make.py`，站点将自动在`public`目录下生成。
+将配置信息填入`config.py`，运行`make.py`。程序将搜寻`raw`目录下的 Markdown 文件，站点将在`public`目录下生成。
 
 ```python
 #是否启用 HTTPS
