@@ -1,6 +1,6 @@
 # Lisite
 
-[English README](#Lisite%20-%20English)
+[English README](#lisite---english)
 
 **Lisite** is a lightweight site generation program. It implemented in Jinja2 using Python 3 environment. It uses Markdown to generate HTML site. Lisite is "lite" and "site".
 
