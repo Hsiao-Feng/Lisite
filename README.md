@@ -122,6 +122,6 @@ A tutorial
 You need to make the document end with `.md` for the program to recognize it.
 ## Default Theme
 
-The default theme PingHsu Lite is modified from [Pinghsu](https://github.com/) developed by [Chakhsu](https://github.com/chakhsu/) for [Typecho](http://typecho.org) blog program chakhsu/pinghsu) theme. The license of the original theme is [MIT License](https://github.com/chakhsu/pinghsu/blob/master/LICENSE.md), and this theme also follows this license.
+The default theme PingHsu Lite is modified from [Pinghsu Theme](https://github.com/chakhsu/pinghsu) developed by [Chakhsu](https://github.com/chakhsu/) for [Typecho](http://typecho.org) blog program. The license of the original theme is [MIT License](https://github.com/chakhsu/pinghsu/blob/master/LICENSE.md), and this theme also follows this license.
 
 Thanks to Chakhsu for his contribution.
