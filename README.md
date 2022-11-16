@@ -60,7 +60,7 @@ YYYY/MM/DD hh:mm
 
 运行 `make.py` 即可生成 HTML 文件至 `public` 文件夹下。
 
-```python
+```shell
 python3 make.py
 ```
 
@@ -129,7 +129,7 @@ You need to make the document end with `.md` for the program to recognize it.
 
 Run `make.py` to create HTML files in `public` folder.
 
-```python
+```shell
 python3 make.py
 ```
 
