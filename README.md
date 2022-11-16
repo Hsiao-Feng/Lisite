@@ -58,6 +58,12 @@ YYYY/MM/DD hh:mm
 
 此外，您需要使文档以`.md`结尾，以便程序识别。
 
+运行 `make.py` 即可生成 HTML 文件至 `public` 文件夹下。
+
+```python
+python3 make.py
+```
+
 ## 默认主题
 
 默认主题 PingHsu Lite 修改自 [Chakhsu](https://github.com/chakhsu/) 为 [Typecho](http://typecho.org) 博客程序开发的 [Pinghsu](https://github.com/chakhsu/pinghsu) 主题。原主题的许可为 [MIT License](https://github.com/chakhsu/pinghsu/blob/master/LICENSE.md)，本主题同样遵循本许可。
@@ -120,6 +126,14 @@ A tutorial
 -->
 ```
 You need to make the document end with `.md` for the program to recognize it.
+
+Run `make.py` to create HTML files in `public` folder.
+
+```python
+python3 make.py
+```
+
+
 ## Default Theme
 
 The default theme PingHsu Lite is modified from [Pinghsu Theme](https://github.com/chakhsu/pinghsu) developed by [Chakhsu](https://github.com/chakhsu/) for [Typecho](http://typecho.org) blog program. The license of the original theme is [MIT License](https://github.com/chakhsu/pinghsu/blob/master/LICENSE.md), and this theme also follows this license.
